@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Build outputs
+build/
+dist/
+*.spec.bak
+*.toc
+*.pyz
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Project specific
+selftest.txt
+*.log
+
+# Large media fixtures if needed
+tools/fixtures/*.mkv
+tools/fixtures/*.mp4
